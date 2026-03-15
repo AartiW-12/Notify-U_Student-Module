@@ -12,9 +12,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.use(cors({
-  origin: 'http://localhost:3000'
-}));
+app.use(cors());
 
 app.use('/api', require('./Routes/LoginStudents'));
 app.use('/api', require('./Routes/TPO_Dept'));
