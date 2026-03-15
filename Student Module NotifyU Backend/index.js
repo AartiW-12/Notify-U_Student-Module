@@ -6,14 +6,12 @@ const mongoDB = require('./ConnectionDB');
 require("dotenv").config();
 
 mongoDB();
+app.use(cors());
 
 app.use(express.json());
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
-
-app.use(cors());
-
 app.use('/api', require('./Routes/LoginStudents'));
 app.use('/api', require('./Routes/TPO_Dept'));
 app.use('/api', require('./Routes/StudentProfile'));
