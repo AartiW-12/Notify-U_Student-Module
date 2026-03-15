@@ -1,0 +1,139 @@
+.libraryBG{
+    height: auto;
+    width: auto;
+    background: #19222b;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+
+
+.issuedBG{    
+    color: #ffffff;
+    padding-top: 14px;
+    padding-left: 14px;
+    margin-top: 30px;
+    height: 208px;
+    max-width: 1000px;
+    background: #495b6957;
+    border: 1px solid #ffffff;
+    border-left: 4px solid rgb(132, 0, 0);
+    border-right: 4px solid rgb(0, 75, 150);
+    border-radius: 4px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    cursor: default;
+    font-family: 'Candara';
+    box-shadow: 0px 0px 14px black;
+}
+.issuedSvg{
+    height: 24px;
+    width: 24px;
+    margin-left: 4px;
+}
+
+.issuedBG2{
+    height: auto;
+    width: auto;
+    margin-right: 14px;
+    padding: 7px;
+    padding-top: 14px;    
+    display: flex;
+    overflow-x: auto;
+}
+.issuedBG2::-webkit-scrollbar{
+    display: none;
+}
+
+.issuedBook{
+    margin-left: 7px;
+    padding: 14px;
+    color: rgb(255, 255, 255);
+    background: #002339b9;
+    border: 2px solid #005c94; 
+    border-radius: 4px;
+    display: inline-block;
+    min-width: fit-content;
+    height: fit-content;
+    cursor: auto;
+    font-family: 'Helvetica';
+}
+
+.dueDateExpired{    /* not in use yet */
+    background: #52000065;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(181, 0, 0);
+}
+
+
+
+
+.suggestionsBG{
+    text-align: left;
+    color: rgba(255, 255, 255, 0.888);
+    padding-top: 14px;
+    padding-left: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 242px;
+    max-width: 1000px;
+    background: #495b6957;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    overflow-x: auto;
+    cursor: default;
+    font-family: 'Candara';
+    box-shadow: 0px 0px 14px black;
+}
+
+.suggestionsBg2{
+    height: auto;
+    width: auto;
+    margin-right: 14px;
+    display: flex;
+    overflow-x: auto;
+}
+.suggestionsBg2::-webkit-scrollbar{
+    display: none;
+}
+.suggestedSvg{
+    height: 24px;
+    width: 27px;
+    margin-left: 4px;
+    margin-bottom: 7px;
+}
+
+.suggestedBook{
+    text-align: center;
+    margin: 14px;
+    padding: 7px;
+    color: rgba(255, 183, 0, 0.888);
+    background: #00314c;
+    border-right: 3px solid #ce9702a2;
+    border-bottom: 3px solid #846a1ca2;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 4px;
+    display: inline-block;
+    min-width: fit-content;
+    height: auto; 
+    cursor: auto;
+    font-family: 'Helvetica';
+}
+.bookFront{
+    padding-top: 14px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    border: 1px solid white;
+    height: 140px;
+    width: 100px;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-y: auto;
+}
+.bookFront::-webkit-scrollbar{
+    display: none;
+}

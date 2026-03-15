@@ -1,0 +1,88 @@
+body::-webkit-scrollbar{
+   display: none;
+}
+
+.navbar{
+    background: black;
+    border-bottom: 1px solid rgb(51, 51, 51);
+}
+.brand{
+   color: white;
+   font-family: "Copperplate Gothic";
+}
+.page{
+    width: 90px;
+    font-size: 14px;
+    display: none;
+    color: white;
+    font-family: "tahoma";
+}
+
+.menuEffect{
+    text-decoration: none;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+/* entered */
+.menuEffect:hover{
+    text-decoration: none;
+    color: white;   
+    background: rgb(0, 94, 123);    
+    transition-duration: 0.3s;
+}
+
+/* leaved */
+.menuEffect:not(:hover){
+    color: rgb(189, 193, 196);
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 7px;
+    transition-duration: 0.3s;
+}
+
+
+
+/* link active */
+.active{
+    color: rgb(255, 255, 255);
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 7px; 
+    background: rgb(0, 94, 123);
+    border-radius: 20px;
+    transition-duration: 0.3s; 
+}
+
+.active:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+
+
+/* brand style */
+.brandBG{    
+    width: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: default;
+    user-select: none;
+    display: flex;
+}
+
+
+@media(max-width: 992px){
+    .showOnPhone{
+        display: flex;
+        align-items: center;
+        padding-left: 4px;
+    }
+}
+
+
+
+
+
+

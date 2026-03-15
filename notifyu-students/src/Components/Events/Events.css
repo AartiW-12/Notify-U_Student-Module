@@ -1,0 +1,192 @@
+/* parent */
+.eventBG{
+    height: auto;
+    width: 100%;
+    background: #1d191c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+/* events list */
+.eventListBG{
+    height: 420px;
+    width: 300px;
+    background:rgba(31, 0, 27, 0.409);
+    border: 1px solid rgb(118, 0, 88); 
+    box-shadow: 0px 0px 12px black;   
+    margin: 30px;    
+    padding-top: 14px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    justify-content: space-around;
+    backdrop-filter: blur(7px);
+    cursor: default;
+    font-family: 'Candara';
+}
+.eventSvg{
+    height: 24px;
+    width: 24px;
+    margin-left: 6px;
+    margin-bottom: 4px;
+}
+
+.eventList{
+    height: 340px;
+    width: 270px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: auto;
+}
+.eventList::-webkit-scrollbar{
+    display: none;
+}
+
+
+.event{
+    min-height: 40px;
+    width: 90%;
+    margin-top: 17px;
+    margin-bottom: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 7px;
+    font-size: 17px;
+    color: rgb(211, 211, 211);
+    background:rgb(78, 0, 73);
+    border: 1px solid rgb(97, 0, 82);
+    border-radius: 4px;
+    cursor: pointer;   
+    font-family: 'Tahoma';
+}
+.event:hover{
+    background:rgb(85, 0, 79);
+    border: 1px solid rgb(75, 1, 75);
+}
+
+.EventTiming{
+    color: rgb(137, 137, 137);
+    font-size: 14px;
+    padding-bottom: 4px;
+}
+.liveTiming{
+    color: red;
+}
+
+
+.liveEvent{
+    color: white;
+    background:rgb(43, 0, 43);
+    border: 1px solid rgb(255, 1, 213);
+}
+.liveEvent:hover{
+    background:rgb(54, 0, 54);
+    border: 1px solid rgb(255, 1, 213);
+}
+
+.completedEvent{
+    background:rgba(78, 34, 79, 0.596);
+    order: 1px solid rgb(31, 0, 37);
+}
+.completedEvent:hover{
+    background:rgba(86, 27, 79, 0.596);
+    order: 1px solid rgb(31, 0, 37);
+}
+
+.selectedEvent{
+    background:rgb(110, 0, 96);
+    border: 1px solid rgb(0, 174, 255);
+}
+.selectedEvent:hover{
+    background:rgb(118, 0, 102);
+    border: 1px solid rgb(0, 174, 255);
+}
+
+
+
+
+/* event info */
+.eventInfoBG{
+    height: auto;
+    width: auto;
+    background:rgba(31, 0, 27, 0.409);
+    border: 1px solid rgb(118, 0, 88);  
+    box-shadow: 0px 0px 12px black;
+    margin: 12px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 20px;    
+    backdrop-filter: blur(7px);
+}
+
+
+.eventPoster{
+    height: 380px;
+    width: 290px;
+    background: #000;
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: auto;
+    /* border: 2px solid white; */
+    box-shadow: 2px 2px 40px rgb(0, 0, 0);
+}
+
+.poster{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.aboutEventBG{
+    max-height: 400px;;
+    max-width: 620px;
+    color: rgb(158, 158, 158);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.aboutEventBG::-webkit-scrollbar{
+    display: none;
+}
+
+
+.eventTitle{
+    display: inline-block;
+    color: white;
+    border-bottom: 1px solid rgb(114, 0, 97);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 24px;
+    width: 100%;
+    font-family: 'Candara';
+
+}
+
+.aboutEvent{
+    display: inline-block;  
+    height: 80%;
+    margin-top: 14px;
+    padding: 30px;
+    overflow-y: auto;
+    font-family: 'Helvetica';
+}
+.aboutEvent::-webkit-scrollbar{
+    display: none;
+}

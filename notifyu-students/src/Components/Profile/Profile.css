@@ -1,0 +1,297 @@
+.profileBG{
+    height: 100%;
+    width: 100%;
+    background: #19222b; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* main container */
+.profileContainer{
+    height: 470px;
+    width: 722px;
+    border: 1px solid rgb(0, 73, 109);
+    background: linear-gradient(180deg, rgb(0, 20, 36), rgb(0, 25, 49),rgb(0, 29, 45), rgb(0, 24, 42), rgb(0, 17, 28));
+    margin-top: 70px;
+    margin-bottom: 90px;
+    margin-left: 7px;
+    margin-right: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: default;
+}
+
+/* header section */
+.profileHeader{
+    height: auto;
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.instituteName{
+    height: 100%;
+    width: 70%;
+    color: rgb(255, 204, 0);   
+    font-size: 20px;
+    text-wrap: wrap;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.profileText{
+    height: 80px;
+    width: 80px;
+    background: #220026;
+    border: 1px solid rgb(195, 0, 255);
+    border-radius: 50%;
+    margin: auto;
+    color: rgb(250, 185, 250);
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* left section */
+.profileInfoContainer{
+    height: 300px;
+    max-width: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: auto;
+}
+.profileInfoContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.profileInfoBG{
+    height: 300px;
+    width: 360px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.userInfo{
+    height: 90%;
+    width: 95%;
+    margin: auto;
+    background: #4e4e4e14;
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    overflow: auto;
+    padding-left: 4px;
+}
+.userInfo::-webkit-scrollbar{
+    display: none;
+}
+.userinfoLabel{
+    height: auto;
+    width: 100%;
+    padding: auto;
+    margin-top: 12px;
+    margin: 12px;
+    text-wrap: wrap;
+    font-size: 20px;
+    color: rgb(206, 206, 206);
+    font-family: 'Helvetica';
+}
+
+
+
+/* right section */
+.profileSkillBg{
+    height: 300px;
+    width: 360px;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 20px;
+    padding-top: 14px;
+    color: rgb(171, 171, 171);
+    font-family: "Candara";
+}
+.profileSkillText{
+    width: 100%;
+    height: 40px;
+    padding-left: 6%;
+    margin-bottom: 0px;
+    display: flex;
+    padding-top: 17px;
+}
+.profileSkillContainer{
+    height: 140px;
+    width: 90%;
+    overflow: auto;
+    background: rgb(0, 0, 0);
+    border: 1px solid rgb(110, 110, 110);
+    border-radius: 4px;
+}
+.profileSkillContainer::-webkit-scrollbar{
+    display: none;
+}
+.profileSkills{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   overflow: auto;
+}
+.profileSkills::-webkit-scrollbar{
+    display: none;
+}
+
+.skillLabel{
+    height: fit-content;
+    width: fit-content;
+    background: #5c5c5c;
+    color: rgb(0, 0, 0);
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 20px;
+    cursor: pointer;
+    user-select: none;
+    font-family: "Helvetica";
+}
+
+.addSkillsBG{
+    height: fit-content;
+    width: 94%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.removeSkillTxt{
+    padding-top: 4px;
+    padding-bottom: 7px;
+    font-size: 12px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.addSkillBtn{
+    height: 30px;
+    width: 50px;
+    color: white;
+    background: #00a9fd20;
+    border: 1px solid rgb(0, 91, 127);
+    border-radius: 4px;
+    margin: auto;
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    font-family:"Century Gothic";
+}
+.addSkillBtn:hover{
+    background: #00bfff46;
+}
+
+
+
+/* add skill area */
+.skillInputBG{
+    height: auto;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.skillInput{
+    width: 220px;
+    height: 30px;
+    background: #000000;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addInputBtn{
+    height: 30px;
+    width: 50px;
+    background: rgba(0, 0, 0, 0.171);
+    border: 1px solid rgb(0, 78, 109);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1px;
+    cursor: pointer;
+    user-select: none;
+    font-family:"Century Gothic";
+}
+.addInputBtn:hover{
+    background: rgba(0, 140, 255, 0.384);
+    border-color: rgb(0, 118, 165);
+}
+
+.cancelInputBtn{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.cancelInputBtn:hover{
+    color: rgb(168, 0, 0);
+}
+
+
+
+
+
+/* footer */
+.profileFooter{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.logout{
+    height: 70%;
+    width: auto;
+    background:rgba(255, 0, 0, 0.18);
+    border: 1px solid red;
+    color: aliceblue;    
+    padding: 12px;
+    margin-top: auto;
+    margin-bottom: 12px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Century Gothic";
+}
+.logout:hover{
+    background:rgba(255, 0, 0, 0.422);
+
+}

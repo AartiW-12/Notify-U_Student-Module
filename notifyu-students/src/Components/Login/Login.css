@@ -1,0 +1,136 @@
+/* login bg */
+.loginParent{
+    background-image: url(DKTE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.loginBG{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: #00253de0;
+}
+/* sign in container */
+.loginContainer{
+    height: 400px;
+    width: 300px;
+    border: 1px solid rgb(48, 48, 48);
+    background: #0020349f;
+    box-shadow: 0px 0px 12px rgb(0, 123, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+
+.LoginText{
+    height: max-content;
+    width: 80%;
+    margin-top: 25px;
+    font-size: 36px;
+    color: rgba(99, 122, 128, 0.642);
+    user-select: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Copperplate Gothic';
+}
+
+input{
+    outline: none;
+    color: rgb(255, 255, 255);
+}
+
+.usernameBg{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Helvetica';
+}
+.username{
+    border: none;
+    background: none;
+    font-size: 20px;
+    height: 40px;
+    width: 85%;
+    border-bottom: 1px solid rgb(8, 78, 105);
+}
+
+.passwordBg{
+    height: max-content;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Helvetica';
+}
+.password{
+    border: none;
+    background: none;
+    height: 40px;
+    width: 85%;
+    border-bottom: 1px solid rgb(8, 78, 105);
+}
+
+.loginMsg{
+    height: 30px;
+    width: 100%;
+    font-size: 14px;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.loginBg{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.clearBtn{
+    height: fit-content;
+    width: 80px;
+    padding: 7px;
+    margin-right: 14px;
+    background: #ff01011d;
+    border: 1px solid grey;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    transition: 500ms;
+    font-family: 'Century Gothic';
+}
+.clearBtn:hover{
+    background: #ff010154;
+    transition: 300ms;
+}
+
+.loginBtn{
+    height: fit-content;
+    width: 80px;
+    padding: 7px;
+    margin-left: 14px;
+    background: #03ff3a15;
+    border: 1px solid grey;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition: 500ms;
+    user-select: none;
+    font-family: 'Century Gothic';
+}
+.loginBtn:hover{
+    background: #03ff3a48;
+    transition: 300ms;
+}

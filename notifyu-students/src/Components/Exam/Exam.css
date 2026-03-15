@@ -1,0 +1,139 @@
+.Examparent{
+    height: auto;
+    width: auto;
+    background: #19222b; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Examleft{
+    height: 400px;
+    width: 720px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background:rgb(255, 255, 255);
+    border: 1px solid rgb(46, 46, 46);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;   
+}
+.examTimetableTitle{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 9px;
+    padding-bottom: 36px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Candara';
+    font-size: 22px;
+}
+.ExampdfViewer{
+    max-height: 340px;
+    margin-top: 7px;   
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.ExampdfViewer::-webkit-scrollbar{
+    display: none;
+}
+.EpdfPage{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.ExamRightParent{
+    height: 400px;
+    width: 340px; 
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background:rgb(14, 62, 99);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 12px rgb(0, 0, 0);
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: auto;
+    font-family: 'Candara';
+    cursor:default;
+}
+
+.ExamRight{
+    height: 280px;
+    width: 500px; 
+    margin: 19px;
+    padding-top: 14px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: auto;
+    background:rgba(0, 153, 255, 0.185);
+    border: 1px solid rgb(0, 99, 138);
+    cursor: auto;
+    font-family: 'Tahoma';
+}
+.ExamRight::-webkit-scrollbar{
+    display: none;
+}
+
+.ExamRightText{
+    color: white;
+}
+.ExamSvg{
+    height: 30px;
+    width: 30px;
+    margin-left: 4px;
+}
+
+.SeatingArrangementrows{
+    color: white;
+    border-radius: 20px;
+    padding: 1px;
+    margin: 1px;
+    text-align: center;
+    height: auto;
+    width: 80%;
+    text-align: left;
+    font-size: 17px;
+}
+
+.LinkContainer{
+    height: 90px;
+    width: 90%;
+    background: rgb(19, 19, 19);
+    margin: 20px;
+    border-radius: 30px;
+    padding-top: 7px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.ExamLink{
+    height: 50px;
+    width: 90%;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-wrap: nowrap;
+    font-size: 20px;
+    font-family: "Courier";
+    color: rgb(0, 105, 252);
+    overflow-x: auto;
+}
+.ExamLink::-webkit-scrollbar{
+    display: none;
+}
+
