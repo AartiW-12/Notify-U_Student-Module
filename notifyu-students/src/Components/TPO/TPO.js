@@ -18,7 +18,7 @@ export default function TPO({ usersInfo }) {
             try {
                 const skills = usersInfo && usersInfo[4] ? usersInfo[4] : [];
                 const response = await axios.post(
-                    "http://localhost:5001/api/companyMatchingSkill",
+                    "https://notify-u-student-module.onrender.com/api/companyMatchingSkill",
                     { skills }
                 );
                 const list = response.data;
