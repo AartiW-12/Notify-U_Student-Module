@@ -66,7 +66,7 @@ export default function Profile({ usersInfo, onLogout, userID }) {
   };
   const updateUsersSkills = async (skills) => {
     try {
-      await axios.post('http://localhost:5001/api/updateProfile', { userID, skills });
+      await axios.post('https://notify-u-student-module.onrender.com/api/updateProfile', { userID, skills });
     } catch (error) {
       console.log(error);
     }

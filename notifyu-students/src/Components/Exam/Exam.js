@@ -15,7 +15,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 export default function Exam({ usersInfo, userID }) {
 
     const getSittingArrangement = async () => {
-        const examInfo = await axios.post("http://localhost:5001/api/getSeatingArrangement", { userID });
+        const examInfo = await axios.post("https://notify-u-student-module.onrender.com/api/getSeatingArrangement", { userID });
         // var examInfo = [['Date', '00/00/00'], ['Course name', 'Data Analytics'], ['Course code', 'AIL404'], ['PRN', '20UAI000'], ['Block No.', 'CS-00'], ['Bench No.', '00']];
         // console.log(examInfo.data);
         return examInfo.data;

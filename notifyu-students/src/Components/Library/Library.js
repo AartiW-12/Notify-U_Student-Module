@@ -9,7 +9,7 @@ export default function Library({ usersInfo, userID }) {
 
     // fetch issued books:
     const getIssuedBooks = useCallback(async () => {
-        const response = await axios.post("http://localhost:5001/api/getIssuedBookList", { userID });
+        const response = await axios.post("https://notify-u-student-module.onrender.com/api/getIssuedBookList", { userID });
         const issuedBookList = response.data;
 
         if (!issuedBookList || !issuedBookList.issuedBooks) {
@@ -37,7 +37,7 @@ export default function Library({ usersInfo, userID }) {
     // fetch all library books for suggestions:
     const getAllBooks = useCallback(async () => {
     try {
-        const response = await axios.post("http://localhost:5001/api/getAllBooks");
+        const response = await axios.post("https://notify-u-student-module.onrender.com/api/getAllBooks");
         const data = response.data;
 
         if (!data || !data.bookList) return;

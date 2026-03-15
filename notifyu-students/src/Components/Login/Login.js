@@ -22,7 +22,7 @@ export default function Login({ onLogin }) {
         }
 
         try {
-            const response = await axios.post('http://localhost:5001/api/studentLogin', { userName, password });
+            const response = await axios.post('https://notify-u-student-module.onrender.com/api/studentLogin', { userName, password });
 
             if (response.data.success) {
                 onLogin(userName);

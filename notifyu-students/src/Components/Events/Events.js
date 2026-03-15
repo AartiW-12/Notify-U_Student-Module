@@ -19,7 +19,7 @@ export default function Events() {
 
     // fetch events:
     const getEventsList = async () => {
-        const response = await axios.post('http://localhost:5001/api/get_All_Events', {});
+        const response = await axios.post('https://notify-u-student-module.onrender.com/api/get_All_Events', {});
         return response.data;
     }
 

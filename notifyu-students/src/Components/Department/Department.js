@@ -18,7 +18,7 @@ export default function Department({ usersInfo, userID }) {
 
     const createLabels = useCallback(async () => {
 
-        const subjectsRes = await axios.post("http://localhost:5001/api/getSubAttendance", { userID });
+        const subjectsRes = await axios.post("https://notify-u-student-module.onrender.com/api/getSubAttendance", { userID });
         const subjects = subjectsRes.data;
 
         console.log(subjects);
@@ -28,7 +28,7 @@ export default function Department({ usersInfo, userID }) {
             return;
         }
 
-        const thresholdRes = await axios.post("http://localhost:5001/api/get_Threshold_Attendane");
+        const thresholdRes = await axios.post("https://notify-u-student-module.onrender.com/api/get_Threshold_Attendane");
         const threshold = thresholdRes.data[0];
 
         const childs = subjects.map((subject, i) => {
