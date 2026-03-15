@@ -34,7 +34,7 @@ function App() {
     if (!userID) return; // don't fetch if not logged in
     const fetchdata = async () => {
       try {
-        const response = await axios.post("http://localhost:5001/api/getProfile", { userID });
+        const response = await axios.post("https://notify-u-student-module.onrender.com/api/getProfile", { userID });
         setUsersInfo(response.data);
         setOk(true);
       } catch (error) {
