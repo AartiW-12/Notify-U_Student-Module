@@ -1,6 +1,6 @@
+require("dotenv").config();
 const mongoose = require('mongoose');
-const mongoURI_1 = "mongodb+srv://NotifyU:NotifyU123@cluster0.k4dsap2.mongodb.net/CollegeDB";
-
+const mongoURI_1 = process.env.MONGO_URI_ATLAS;
 const mongoDB = async () => {
     try {
         await mongoose.connect(mongoURI_1);
