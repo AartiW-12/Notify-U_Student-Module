@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 5001
+const PORT = process.env.PORT || 5001;
 const cors = require('cors')
 const mongoDB = require('./ConnectionDB');
 require("dotenv").config();
@@ -28,6 +28,6 @@ app.use('/api', require('./Routes/HomeTimeTable'));
 app.use('/api', require('./Routes/Threshold_Attendance'));
 // app.use('/api',require('./'))
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+app.listen(PORT, () => {
+  console.log(`Example app listening on port ${PORT}`)
 })
