@@ -7,10 +7,19 @@ import mypdf from "./timetable.pdf";
 import axios from 'axios';
 import { pdfjs } from 'react-pdf';
 
-pdfjs.GlobalWorkerOptions.workerSrc = new URL(
-    'pdfjs-dist/build/pdf.worker.min.js',
-    import.meta.url,
-).toString();
+// import { pdfjs } from 'react-pdf';
+import 'react-pdf/dist/Page/TextLayer.css';
+import 'react-pdf/dist/Page/AnnotationLayer.css';
+
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js`;
+
+// // pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+// //     'pdfjs-dist/build/pdf.worker.min.js',
+// //     import.meta.url,
+// // ).toString();
+
+// pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+
 
 export default function Department({ usersInfo, userID }) {
 
