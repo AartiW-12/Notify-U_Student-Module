@@ -4,14 +4,14 @@ import 'react-pdf/dist/Page/TextLayer.css';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import { Document, Page } from 'react-pdf';
 import pdf from './timetable.pdf';
-import { pdfjs } from 'react-pdf';
-
-
 // import { pdfjs } from 'react-pdf';
-import 'react-pdf/dist/Page/TextLayer.css';
-import 'react-pdf/dist/Page/AnnotationLayer.css';
 
-pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js`;
+
+// // import { pdfjs } from 'react-pdf';
+// import 'react-pdf/dist/Page/TextLayer.css';
+// import 'react-pdf/dist/Page/AnnotationLayer.css';
+
+// pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js`;
 // // pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 // //     'pdfjs-dist/build/pdf.worker.min.js',
 // //     import.meta.url,
